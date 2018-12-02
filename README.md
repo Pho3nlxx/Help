@@ -1,2 +1,25 @@
-# Help
-help
+Starting Cosmic Test Bot
+TypeError: Cannot set property 'playingnow' of undefined
+    at Object.mod (C:\Users\Administrator\Downloads\Cosmic Test Bit\actions\mod_info_MOD.js:233:22)
+    at Object.<anonymous> (C:\Users\Administrator\Downloads\Cosmic Test Bit\js\Actions.js:79:13)
+    at Array.forEach (<anonymous>)
+    at Object.Actions.initMods (C:\Users\Administrator\Downloads\Cosmic Test Bit\js\Actions.js:73:32)
+    at Object.Files.initStandalone (C:\Users\Administrator\Downloads\Cosmic Test Bit\js\Files.js:27:11)
+    at Object.<anonymous> (C:\Users\Administrator\Downloads\Cosmic Test Bit\bot.js:11:7)
+    at Module._compile (internal/modules/cjs/loader.js:722:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+(node:3144) UnhandledPromiseRejectionWarning: Error: Request to use token, but token was unavailable to the client.
+    at APIRequest.getAuth (C:\Users\Administrator\Downloads\Cosmic Test Bit\node_modules\discord.js\src\client\rest\APIRequest.js:33:11)
+    at APIRequest.gen (C:\Users\Administrator\Downloads\Cosmic Test Bit\node_modules\discord.js\src\client\rest\APIRequest.js:39:54)
+    at resolve (C:\Users\Administrator\Downloads\Cosmic Test Bit\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:52:20)
+    at new Promise (<anonymous>)
+    at SequentialRequestHandler.execute (C:\Users\Administrator\Downloads\Cosmic Test Bit\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:51:12)
+    at SequentialRequestHandler.handle (C:\Users\Administrator\Downloads\Cosmic Test Bit\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:94:10)
+    at SequentialRequestHandler.push (C:\Users\Administrator\Downloads\Cosmic Test Bit\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:41:10)
+    at Promise (C:\Users\Administrator\Downloads\Cosmic Test Bit\node_modules\discord.js\src\client\rest\RESTManager.js:26:15)
+    at new Promise (<anonymous>)
+    at RESTManager.push (C:\Users\Administrator\Downloads\Cosmic Test Bit\node_modules\discord.js\src\client\rest\RESTManager.js:25:12)
+(node:3144) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:3144) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
